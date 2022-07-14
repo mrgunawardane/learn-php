@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>chat-app</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left-side">
+                <h1>Welcome Back!</h1>
+                <p>Now send and receive messages <br>without keeping your ohone online.</p>
+                <p id="encrypt">&#128274;end-to-end encrypted</p>
+            
+                <button type="button">Sign in</button>
+                
+            </div>
+
+            <div class="right-side">
+                <h2>Create Account</h2>
+                <form action="connect.php" method="post">
+                    
+                    <label for="fName">Full Name :</label>
+                    <input type="text" name="fName" id="fName" placeholder="Full Name">
+                    <br>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <br>
+                    <label for="bday">Date of Birth :</label>
+                    <input type="date" name="bday" id="bday">
+                    <br>
+                    <label for="passwd">password :</label>
+                    <input type="password" name="passwd" id="passwd" placeholder="Enter password">
+                    <br>
+                    <label for="passwd">Confirm password :</label>
+                    <input type="password" name="cpasswd" id="cpasswd" placeholder="Confirm password">
+                    <br>
+                    <button type="submit" name="submit">Sign Up</button>    
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
